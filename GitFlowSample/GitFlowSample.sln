@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitFlowSample.Droid", "Droi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitFlowSampleUi", "GitFlowSampleUi\GitFlowSampleUi.csproj", "{ED9DD067-F77C-44C8-A76E-D2DE57E85F2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSTest", "iOSTest\iOSTest.csproj", "{9D47B922-9955-4789-B470-11C9C869849F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -55,5 +57,17 @@ Global
 		{ED9DD067-F77C-44C8-A76E-D2DE57E85F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED9DD067-F77C-44C8-A76E-D2DE57E85F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED9DD067-F77C-44C8-A76E-D2DE57E85F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D47B922-9955-4789-B470-11C9C869849F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{9D47B922-9955-4789-B470-11C9C869849F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{9D47B922-9955-4789-B470-11C9C869849F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{9D47B922-9955-4789-B470-11C9C869849F}.Release|iPhone.Build.0 = Release|iPhone
+		{9D47B922-9955-4789-B470-11C9C869849F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{9D47B922-9955-4789-B470-11C9C869849F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{9D47B922-9955-4789-B470-11C9C869849F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{9D47B922-9955-4789-B470-11C9C869849F}.Debug|iPhone.Build.0 = Debug|iPhone
+		{9D47B922-9955-4789-B470-11C9C869849F}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{9D47B922-9955-4789-B470-11C9C869849F}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{9D47B922-9955-4789-B470-11C9C869849F}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{9D47B922-9955-4789-B470-11C9C869849F}.Release|Any CPU.Build.0 = Release|iPhone
 	EndGlobalSection
 EndGlobal
