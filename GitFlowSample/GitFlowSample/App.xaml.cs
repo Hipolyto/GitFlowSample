@@ -10,6 +10,9 @@ namespace GitFlowSample
         public static string BackendUrl = "https://localhost:5000";
         private string Something = "Norman";
         
+        
+         private string Something2 = "Norman";
+        
         public App()
         {
             InitializeComponent();
