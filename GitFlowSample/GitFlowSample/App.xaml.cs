@@ -8,6 +8,7 @@ namespace GitFlowSample
     {
         public static bool UseMockDataStore = true;
         public static string BackendUrl = "https://localhost:5000";
+        //ultimo
         private string Something = "Ernesto";
         
         public App()
