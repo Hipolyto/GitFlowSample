@@ -7,9 +7,9 @@ namespace GitFlowSample
     public partial class App : Application
     {
         public static bool UseMockDataStore = true;
-        public static string BackendUrl = "https://localhost:5000";
-        private string Something = "Norman";
-        
+        //public static string BackendUrl = "https://localhost:5000";
+        string Something = "Norman";
+        //nombre corercto
         public App()
         {
             InitializeComponent();
