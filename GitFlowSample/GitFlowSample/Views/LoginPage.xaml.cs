@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using GitFlowSample.ViewModels;
 using Xamarin.Forms;
 
 namespace GitFlowSample.Views
@@ -10,11 +10,8 @@ namespace GitFlowSample.Views
         public LoginPage()
         {
             InitializeComponent();
-        }
-
-        async void Handle_Clicked(object sender, System.EventArgs e)
-        {
-            await Navigation.PushAsync(new MainPage());
+            
+            BindingContext = new LoginViewModel();
         }
     }
 }

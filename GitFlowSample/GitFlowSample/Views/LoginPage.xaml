@@ -3,10 +3,10 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="10,10,10,10">
             <Label Text="Email" />
-            <Entry Text="" Placeholder="Escriba aqui" />
+            <Entry Text="{Binding Email}" Placeholder="Escriba aqui" />
             <Label Text="Password" />
-            <Entry Text="" Placeholder="Escriba aqui" IsPassword="true" />
-            <Button Text="Login" Clicked="Handle_Clicked" BackgroundColor = "Maroon" HorizontalOptions="FillAndExpand" TextColor = "White" />
+            <Entry Text="{Binding Password}" Placeholder="Escriba aqui" IsPassword="true" />
+            <Button Text="Login" Command = "{Binding OnLoginCommand}" BackgroundColor = "Maroon" HorizontalOptions="FillAndExpand" TextColor = "White" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
