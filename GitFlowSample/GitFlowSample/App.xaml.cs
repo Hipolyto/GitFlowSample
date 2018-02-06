@@ -13,7 +13,11 @@ namespace GitFlowSample
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new NavigationPage(new LoginPage())
+    {
+        BarBackgroundColor = Color.Green,
+        BarTextColor = Color.White,
+    };
         }
     }
 }
